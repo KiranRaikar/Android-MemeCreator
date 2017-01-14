@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:width="320dp"
+        android:hint="Enter meme top text"
+        android:textColor="@android:color/black"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editTextTop"
+        android:layout_marginTop="15dp"
+        android:width="320dp"
+        android:textColor="@android:color/black"
+        android:hint="Enter meme bottom text"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/buttonSetMeme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editTextBottom"
+        android:layout_marginTop="15dp"
+        android:text="Set Meme"/>
+</RelativeLayout>
